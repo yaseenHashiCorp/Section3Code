@@ -17,7 +17,7 @@ terraform {
 
 module "aws-child" {
 source = "app.terraform.io/yaseen-tfcorg/child/aws"
-version = "1.0.0"
+version = "1.0.1"
 region = var.region
 }
 
