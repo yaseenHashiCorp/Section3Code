@@ -75,6 +75,7 @@ resource "aws_instance" "web" {
   security_groups             = [aws_security_group.sg.id]
   subnet_id                   = aws_subnet.public_subnet.id
 
+
 connection {
       type        = "ssh"
       user        = "ubuntu"
